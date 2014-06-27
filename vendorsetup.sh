@@ -1,0 +1,3 @@
+add_lunch_combo ZTE_U9180-userdebug
+add_lunch_combo cm_U9180-userdebug
+add_lunch_combo cm_U9180-eng
