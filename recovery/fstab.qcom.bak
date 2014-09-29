@@ -17,7 +17,6 @@
 /dev/block/platform/msm_sdcc.1/by-name/persist      /persist        ext4    noatime,nosuid,nodev,barrier=1,data=ordered                     wait,check
 
 #/dev/block/platform/msm_sdcc.1/by-name/grow	/intersd		fat	defaults					defaults
-#/devices/msm_sdcc.1/mmc_host			/storage/sdcard0	vfat    nosuid,nodev					wait,formatfat,voldmanaged=sdcard0:27
-#/devices/msm_sdcc.2/mmc_host			/storage/sdcard1	vfat    nosuid,nodev					wait,voldmanaged=sdcard1:auto
-/devices/msm_sdcc.1/mmc_host                        auto            auto    nosuid,nodev                                wait,voldmanaged=sdcard0:27
-/devices/msm_sdcc.2/mmc_host                        auto            auto    nosuid,nodev                                wait,voldmanaged=sdcard1:auto
+/devices/msm_sdcc.1/mmc_host			/storage/sdcard0	vfat    nosuid,nodev					wait,formatfat,voldmanaged=sdcard0:27
+/devices/msm_sdcc.2/mmc_host			/storage/sdcard1	vfat    nosuid,nodev					wait,voldmanaged=sdcard1:auto
+

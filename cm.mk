@@ -8,11 +8,11 @@ PRODUCT_RELEASE_NAME := U9180
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/ZTE/U9180/device_U9180.mk)
+$(call inherit-product, device/zte/U9180/device_U9180.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := U9180
 PRODUCT_NAME := cm_U9180
-PRODUCT_BRAND := ZTE
+PRODUCT_BRAND := zte
 PRODUCT_MODEL := U9180
-PRODUCT_MANUFACTURER := ZTE
+PRODUCT_MANUFACTURER := zte
